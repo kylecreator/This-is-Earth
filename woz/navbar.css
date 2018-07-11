@@ -1,0 +1,88 @@
+/* NAVIGATION BAR */ 
+ul {
+
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+
+    width: 100%; 
+    
+    z-index: 4; 
+
+    
+
+   
+
+
+}
+
+li {
+
+    float: left; 
+    position: sticky; 
+}
+
+a { 
+
+    display: block; 
+
+    
+
+    background-color:rgb(173, 216, 230); 
+    
+    
+}
+
+ul { 
+
+    background-color: #dddddd; 
+}
+
+ul {
+
+list-style-type: none; 
+
+margin:0; 
+padding: 0; 
+overflow: auto;
+background-color: #3333; 
+
+}
+
+
+
+li a {
+
+    display: block; 
+    color: white; 
+    text-align: center; 
+    padding: 14px 16px; 
+    text-decoration: none; 
+}
+
+/* HOVER (buttons) */ 
+
+li a:hover {
+
+    background-color: grey;
+  
+}
+
+
+
+/* FIXED NAVIGATION BAR */ 
+
+ul {
+
+    position: absolute; 
+    top: 0;
+    width: 100%; 
+    z-index: 3;
+}
+
+.active {
+
+    background-color:pink;
+  
+}
+
